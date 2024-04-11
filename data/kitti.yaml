@@ -1,0 +1,11 @@
+train: /home/crazyjackkong/DL/dataset/kitti/train.txt  # 118287 images
+val: /home/crazyjackkong/DL/dataset/kitti/val.txt  # 5000 images
+test: /home/crazyjackkong/DL/dataset/kitti/test.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 3
+
+# class names
+
+names: [     'Car','Pedestrian','Cyclist'    ]
+

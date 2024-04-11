@@ -1,0 +1,12 @@
+train: /home/crazyjackkong/DL/dataset/数据集/paper_data/VOC2007/train.txt  # 118287 images
+val: /home/crazyjackkong/DL/dataset/数据集/paper_data/VOC2007/val.txt  # 5000 images
+test: /home/crazyjackkong/DL/dataset/数据集/paper_data/VOC2007/test.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 7
+
+# class names
+
+names: [
+'slag_inclusion', 'lack_of_penetration', 'unfused', 'concave_edgebite', 'weld_porosity', 'crevice' , 'crack' ]
+
